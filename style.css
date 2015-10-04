@@ -1,0 +1,204 @@
+.width800 {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#darkBackground {
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+#whiteBackground {
+    max-width: 1020px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: #fff;
+}
+
+.index{
+	text-align: center;
+	background-image: url("/images/symphony.png");
+	color: white;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-weight: 200;
+	margin:	46px 0 0 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+	background: #fff;
+	color: #333333;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-weight: 200;
+	margin: 0;
+}
+
+h1 {
+	font-size:36px;
+}
+
+h2 {
+	font-size:28px;
+}
+
+p.index{
+	text-align: center;
+}
+
+p {
+	font-size: 24px;
+}
+
+p.instructionalText {
+	font-size:16px;
+	font-style: italic;
+}
+
+input {
+	border: 0;
+	padding: 10px;
+	font-size: 18px;
+	margin: 5px;
+}
+
+input[type="submit"] {
+	background: orange;
+	color: white;
+}
+
+ul.inline {
+	padding: 0 10px;
+}
+
+li.menuItem {
+	display: inline;
+	list-style-type: none;
+}
+
+.menu {
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 0 18px 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.index .menuItem a {
+	background-color: rgba(28, 148, 196, 0.0);
+	border: 0;
+}
+
+.index .menu {
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+.menuItem a {
+	color: #333;
+  text-transform: none;
+  text-decoration: none;
+  padding: 10px 15px 8px 15px;
+  display: inline;
+  margin: 0 2px;
+}
+
+li {
+	font-size: 26px;
+}
+
+ol {
+	margin-left: 50px;
+}
+
+a {
+	color: #1a93c4;
+	text-decoration: none;
+}
+
+.half {
+	width: 46%;
+	float: left;
+	display: block;
+}
+
+.left {
+	margin-right: 8%;
+}
+
+header {
+	margin: 0;
+	text-align: center;
+	background-image: url("/images/symphony.png");
+	color: white;
+}
+
+.pageTitle {
+	color: #333;
+	font-size:90px;
+	margin:0px;
+	padding:50px;
+}
+
+article {
+	max-width:61%;
+	height: 100%;
+	margin-right: 10%;
+	float: left;
+	margin-left: 2%;
+}
+
+.sidebar {
+	max-width:25%;
+	float: left;
+	margin-right: 2%;
+}
+
+@media (max-width: 500px) {
+	.index {
+		background-color: #878070!important;
+	}
+	body {
+		background-color: white;
+	}
+	#darkBackground{
+		margin:10px;
+	}
+	li {
+        display: block!important;
+        margin: 10px;
+    }
+    ul {
+    }
+    .menu {
+    	text-align: center;
+    	height: 100%;
+    }
+    header {
+    	min-height: 200px;
+    }
+    .pageTitle {
+    	font-size: 56px;
+    	padding: 50px 20px;
+    }
+    article {
+		display: block;
+		min-width: 100%;
+	    padding: 20px;
+	    margin: 0 auto;
+    }
+    .sidebar {
+    	display: block;
+	    min-width: 100%;
+	    padding: 20px;
+	    margin: 0 auto;
+    }
+}
